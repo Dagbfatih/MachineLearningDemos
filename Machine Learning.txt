@@ -1,0 +1,96 @@
+Machine Learning
+
+----------------
+
+predictive 	-> kestirmek, öngörmek
+wisdom 		-> hikmet -> hükmetmek -> muhakeme -> hakim -> yönetmek
+knowledge 	-> nasıl
+information 	-> ne ne zaman vs...
+data 		-> veri
+
+Normalization
+----
+min-max normalization 		-> 18-70 yaş aralığındakşi verileri 0-1 aralığına çek. Bu algoritma 18 --> 0, 70 --> 1 olacak şekilde tüm verileri bir aralığda sabitler.
+
+z-score normalization		-> Gürültülü bir veri de max ve min değerler çok uçtaysa diğer veriler sıkışabilir. Bunu z-score normalization ile aşabiliriz. Z-score normalization veriyi ortalama 0, standart deviation 1 ve -1 olacak şekilde normalize eder. 
+
+ondalık normalization		->
+
+Induction -> tümevarım
+Deduction -> tümdengelim
+
+------ veri düzenleme adımları
+
+1. sütun isimlerini düzenleme
+2. yararsız veriyi/sütunu çıkar
+3. Kayıp verileri doldurma (boy, kilo...)
+
+
+Clasical Machine Learning
+---
+Feature inference (çıkarım) ları insan yapar ve belirler. Mesela ayran, gazoz, su örneğinde bakacağın feature'lar renk ve kabarcık'tır diyorum ve yazılıma belirli bir miktarda etiketli veri veriyorum.
+
+Deep Learning
+---
+Ona aşırı fazla miktarda etiketli veri veriyorum ve o CML ten tek farkı feature'ları kendisi belirliyor.
+
+Perceptron - Yapay sinir ağı
+---
+https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464
+
+Regression Analyze
+---
+independent variable -> x
+dependent variable -> y
+f(x) = y
+
+	1. Simple Regression Analyze
+	---
+	1 dependent & 1 independent variable
+
+	2. Multiple Regression Analysis
+	---
+	1 dependent & multiple independent variable
+
+	3. Multiple Variable (polynomial) Regression Analyze
+	---
+	multiple dependent variable
+
+	Lineer Regression Analysis ---> 1. & 2.
+	---
+	if the relation around variables is lineer
+
+	Non-Lineer Regression Analysis ---> 3.
+	---
+	if the relation around variables is not lineer
+
+
+Simple Regression Model
+---
+y = β0 + β1x + ϵ
+
+β0: constant value. When x equals to 0, represents y value. (Intercept, kesme noktası)
+β1: Regression coefficient. Like 'a' which is in ax + b
+ϵ: Random error term. Be assumed dependent value includes an error. Generally it is ignored
+
+Note: Manhatton distance means the total of vertical and horizontal way which is between two points on coordinate system.
+The Euclidean way also means the lineer way length on CS.
+
+
+Regularization
+Is used for figure overfitting (Aşırı uyum gösterme) problem out. Overfitting generally occurs when data is noise at hand.
+
+
+Principal Component Analysis (Temel Bileşen Analizi)
+
+50 soruluk bir ankette 15 soru gelir düzeyini ölçer, 10 soru başka bir şeyi ve bu verileri PCA'ne koyarsak sadece 3 - 4 temel veri olduğunu görebiliriz. Yani çok fazla veriyi basitleştirir ve az sayıya indirger.
+
+Bunu yapmadan önce verinin standardize ve normalize edilmiş olması gerekir.
+
+t-SNE and PCA are used for seperate datas
+
+Kernel Trick - Support Vector Machine
+
+
+
+
