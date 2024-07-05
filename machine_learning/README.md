@@ -11,6 +11,7 @@ It seperates to two titles:
 - Models:
     - Classification
     - Regression
+    - and more...
 
 ## Unsupervised:
 
@@ -20,4 +21,5 @@ It seperates to two titles:
     - Clustering
     - Association
     - Dimensionality Reduction
+    - and more...
 
